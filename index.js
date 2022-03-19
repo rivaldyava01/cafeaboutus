@@ -1,7 +1,7 @@
 const express = require('express'),app = express(),mysql = require('mysql'),cors= require('cors') ,bodyParser = require('body-parser')
 
 db = mysql.createConnection({
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0',
+    host: 'localhost',
     user: 'root',
     password: 'root',
     database: 'tugas_soa'
