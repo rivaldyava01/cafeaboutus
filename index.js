@@ -12,8 +12,8 @@ db = mysql.createConnection({
   })
   
 var server = {
-    port: process.env.DB_PORT,
-    host: process.env.DB_HOST,
+    port: 5000,
+    host: '13.229.66.147',
 };
 
 // routers
