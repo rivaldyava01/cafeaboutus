@@ -14,4 +14,5 @@ npm run index
 keluar dari mysql
 exit
 
-keluar 
+keluar dari server
+exit
