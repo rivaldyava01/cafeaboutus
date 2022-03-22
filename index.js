@@ -13,7 +13,7 @@ db = mysql.createConnection({
   
 var server = {
     port: 5000,
-    host: '13.229.66.147',
+    host: '13.229.66.147',    
 };
 
 // routers
@@ -24,8 +24,6 @@ app.use(bodyParser.json());
 // use router
 app.use('/aboutus', aboutusRouter);
 
-app.use(cors())
-app.use(bodyParser.json());
 app.listen(server.port, ()=>console.log(`server started, listening port: ${server.port}`));
 console.log(process.env.DB_HOST)
 

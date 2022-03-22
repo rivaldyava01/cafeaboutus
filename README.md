@@ -16,3 +16,12 @@ exit
 
 keluar dari server
 exit
+
+running server 
+pm2 start npm --name "about-us" -- run "index" 
+
+check server
+pm2 status
+
+stop server
+pm2 stop about-us
