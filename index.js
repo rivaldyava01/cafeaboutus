@@ -5,14 +5,14 @@ db = mysql.createConnection({
     // user: 'root',
     // password: 'root',
     // database: 'tugas_soa'
-    // host: '127.0.0.1',
-    // user: 'root',
-    // password: 'root',
-    // database: 'tugas_soa'
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASS,
-    database: process.env.DB_NAME
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'root',
+    database: 'tugas_soa'
+    // host: process.env.DB_HOST,
+    // user: process.env.DB_USER,
+    // password: process.env.DB_PASS,
+    // database: process.env.DB_NAME
   })
   
 var server = {
