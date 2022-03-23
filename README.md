@@ -17,6 +17,8 @@ exit
 keluar dari server
 exit
 
+install pm2
+npm install -g pm2
 running server 
 pm2 start npm --name "about-us" -- run "index" 
 
@@ -25,3 +27,6 @@ pm2 status
 
 stop server
 pm2 stop about-us
+
+delete server
+pm2 delete about-us
