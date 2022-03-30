@@ -1,5 +1,5 @@
 const express = require('express'),app = express(),mysql = require('mysql'),cors= require('cors') ,bodyParser = require('body-parser')
-require('dotenv').config();
+
 db = mysql.createConnection({
     host: '127.0.0.1',
     user: 'root',
