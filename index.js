@@ -19,9 +19,11 @@ app.use(bodyParser.json());
 // use router
 app.use('/aboutus', aboutusRouter);
 
+//local
 app.listen(server.port, ()=>console.log(`server started, listening port: ${server.port}`));
 console.log(process.env.DB_HOST)
 
+//public
 db.connect(function(err) {
   if (err) console.log(err.message) ;
   console.log("Successfully connected");
